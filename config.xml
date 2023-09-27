@@ -6,4 +6,10 @@
 			<class name="MavenTestWithJenkins.MavenTestWithJenkinsAndGit.testNg"/>
 		</classes>
 	</test>
+	<test name="MyTest2">
+		<classes>
+			<class name="MavenTestWithJenkins.MavenTestWithJenkinsAndGit.testNg"/>
+		</classes>
+	</test>
+	
 </suite>
