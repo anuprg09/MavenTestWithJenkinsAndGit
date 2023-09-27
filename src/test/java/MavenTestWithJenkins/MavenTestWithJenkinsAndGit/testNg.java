@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 
 import static org.testng.Assert.assertNotNull;
+import static org.testng.Assert.assertNull;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +18,7 @@ public class testNg {
 	@Test
   public void CheckIfGooglePageIsOpen() {
   WebElement searchTextBox = driver.findElement(By.name("q"));
-  assertNotNull(searchTextBox);
+  assertNull(searchTextBox);
   searchTextBox.sendKeys("This is test");
   
   }
